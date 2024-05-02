@@ -74,13 +74,13 @@
 # Создание контейнера:
    ### docker build -t diploma  .
 # Запуск контейнера:
-       ### docker run -d -p 8888:8888 diploma
+### docker run -d -p 8888:8888 diploma
     
 ## Просмотр результата:    
-    ### http://127.0.0.1:8888/?visitorid=5
+### http://127.0.0.1:8888/?visitorid=5
 ## Для остановки сервиса:
-    ### docker ps -a
-    ### docker stop <docker_id>
+### docker ps -a
+### docker stop <docker_id>
 # В структуре проекта:
 
 ## Dockerfile - контейнер, устанавливающий необходимые библиотеки (flask, pandas, numpy) и запускающий веб-сервис с порта 8888;
