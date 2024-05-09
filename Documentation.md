@@ -75,10 +75,9 @@
 ### Запуск сервиса и его структура
 
 # просмотр 
-##  ###   https://hub.docker.com/repository/docker/markov22/diploma/general
+##  https://hub.docker.com/repository/docker/markov22/diploma/general
 
-### Для создания образа необходимы следующие файлы:
-###   https://hub.docker.com/repository/docker/markov22/diploma/general
+### Для создания образа необходимы следующие файлы
 ###  docker run -p 8888:8888 markov22/diploma:latest 
 
 # Создание контейнера:
