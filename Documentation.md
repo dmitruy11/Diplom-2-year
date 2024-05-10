@@ -83,7 +83,7 @@
 # Запуск контейнера:
 ### docker run -d -p 8888:8888 diploma 
 ## Отправить  образ в Docker Hub
-### docker run --name diplom -d -p 8888:8888  diploma
+### docker push markov22/diploma:tagname
 
 ## Просмотр результата:    
 ### http://127.0.0.1:8888/?visitorid=5
