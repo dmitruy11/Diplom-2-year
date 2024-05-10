@@ -7,6 +7,7 @@ from predictions import check_visitor, predict
 app = Flask(__name__)
 
 
+
 @app.route('/', methods=['GET'])
 def index():
     if request.method == 'GET':
@@ -68,4 +69,4 @@ if __name__ == "__main__":
 
 
 
-##  http://127.0.0.1:888y8/?visitorid=1207845
+##  http://127.0.0.1:8888/?visitorid=1207845
