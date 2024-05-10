@@ -82,7 +82,7 @@
 ## docker build -t markov22/diploma .
 # Запуск контейнера:
 ### docker run -d -p 8888:8888 diploma 
-## Отправьте образ в Docker Hub
+## Отправить  образ в Docker Hub
 ### docker run --name diplom -d -p 8888:8888  diploma
 
 ## Просмотр результата:    
